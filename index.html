@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Prueba con Skeleton</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <div class="container container-2">
+        <div class="row">
+            <div class="twelve-columns h3">
+                <h3>
+                    <center><strong>Formulario</strong></center>
+                </h3>
+            </div>
+            <hr>
+            <!-- 	 DATOS PERSONALES  -->
+            <div class="row">
+                <h5>Ingresa tus datos 🗃️</h5>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <label for="name">Nombres</label>
+                    <input class="u-full-width" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <div class="four columns">
+                    <label for="apellido">Apellidos</label>
+                    <input class="u-full-width" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <div class="four columns">
+                    <label for="edad">Edad</label>
+                    <input type="number" name="number" min="10" max="120" id="" class="u-full-width">
+                </div>
+            </div>
+            <hr>
+            <!-- 	 COMIDA  -->
+            <div class="row">
+                <div class="twelve columns">
+                    <h5>Que tipo de comida prefieres? 🍲</h5>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                        <label for="comida">Comida favorita</label>
+                        <select name="comida" id="" class="u-full-width">
+                            <option value="ChinoCochino">Comida China 🥡</option>
+                            <option value="Pasta">Pasta 🍝</option>
+                            <option value="Pizza">Pizza 🍕</option>
+                            <option value="Hamburguesa">Hamburguesas 🍔</option>
+                            <option value="Sushi">Sushi 🍣</option>
+                            <option value="PerroCaliente">Perros Calientes&#40;Hot Dog&#41; 🌭</option>
+                            <option value="Pescado">Pescado 🐟</option>
+                            <option value="Shawarma">Shawarma 🥙</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <!-- 	MASCOTAS  -->
+                <div class="row">
+                    <h5>Que tipo de mascota posees? 🐱/🐶</h5>
+                </div>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="" class=u-full->Viajas con...?</label>
+                    </div>
+                    <div class="six columns">
+                        <div class="six columns u-full-width">
+                            <input type="radio" name="radio-buttons" id="" value="a"> Perros
+                        </div>
+                        <div class="six columns u-full-width">
+                            <input type="radio" name="radio-buttons" id="" value="b"> Gatos
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- Sitios  para busqueda -->
+                <div class="row">
+                    <h5>Afinemos tu busqueda ✈️</h5>
+                </div>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="lugares">A que sitios te gustaria viajar?</label>
+                    </div>
+                    <div class="six columns">
+                        <label><input type="checkbox" name="" id="cata" value="1"> Cata</input></label>
+                        <label><input type="checkbox" name="" id="chuao" value="2"> Chuao</input></label>
+                        <label><input type="checkbox" name="" id="coche" value="3"> Coche</input></label>
+                        <label><input type="checkbox" name="" id="galipan" value="4"> Galipan</input></label>
+                        <label><input type="checkbox" name="" id="merida" value="5"> Merida</input></label>
+                    </div>
+                </div>
+                <hr>
+                <!--             COmentarios                   -->
+                <div class="row">
+                    <h5>Comentarios 💬</h5>
+                </div>
+                <div class="row">
+                    <label for="mensaje">Dinos que te ha parecido nuestro sitio</label>
+                    <textarea class="u-full-width" name="mensaje" id=""></textarea>
+                </div>
+                <hr>
+                <div class="row">
+                    <input type="submit" class="button-primary u-full-width" value="Enviar Formulario">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
